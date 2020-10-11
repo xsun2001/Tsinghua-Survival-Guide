@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>贡献指南 - 清华生存指南</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u8d21\u732e\u6307\u5357";
+    var mkdocs_page_input_path = "basic/guide.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> 清华生存指南</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">项目简介</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Test/">Level 1</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Basic</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">贡献指南</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduction-to-markdown">Introduction to Markdown</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#what-is-markdown">WHAT is Markdown</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#why-markdown">WHY Markdown</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../markdown-intro/">Markdown简介</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">清华生存指南</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Basic &raquo;</li>
+        
+      
+    
+    <li>贡献指南</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="guide-of-tsinghua-survive-guide">Guide of Tsinghua Survive Guide</h1>
+<h2 id="introduction-to-markdown">Introduction to Markdown</h2>
+<h3 id="what-is-markdown">WHAT is Markdown</h3>
+<blockquote>
+<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。</p>
+<p>由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap、SourceForge、简书等，甚至还能被使用来撰写电子书。</p>
+<p>Ref: <a href="https://zh.wikipedia.org/wiki/Markdown">Wikipedia</a></p>
+</blockquote>
+<h3 id="why-markdown">WHY Markdown</h3>
+<ul>
+<li>Easy to Learn</li>
+<li>
+<p>HTML?</p>
+<p><code>html
+&lt;div role="main"&gt;
+        &lt;div class="section"&gt;
+            &lt;h1 id="welcome-to-mkdocs"&gt;Welcome to MkDocs&lt;/h1&gt;
+            &lt;p&gt;For full documentation visit &lt;a href="https://www.mkdocs.org"&gt;mkdocs.org&lt;/a&gt;.&lt;/p&gt;
+            &lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;&lt;code&gt;mkdocs new [dir-name]&lt;/code&gt; - Create a new project.&lt;/li&gt;
+            &lt;li&gt;&lt;code&gt;mkdocs serve&lt;/code&gt; - Start the live-reloading docs server.&lt;/li&gt;
+            &lt;li&gt;&lt;code&gt;mkdocs build&lt;/code&gt; - Build the documentation site.&lt;/li&gt;
+            &lt;li&gt;&lt;code&gt;mkdocs -h&lt;/code&gt; - Print help message and exit.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;h2 id="project-layout"&gt;Project layout&lt;/h2&gt;
+            &lt;pre&gt;&lt;code&gt;mkdocs.yml    # The configuration file.
+                    docs/
+                    index.md  # The documentation homepage.
+                        ...       # Other markdown pages, images and other files.
+            &lt;/code&gt;&lt;/pre&gt;
+            &lt;h2 id="math-test"&gt;Math test&lt;/h2&gt;
+            &lt;p&gt;
+            &lt;script type="math/tex; mode=display"&gt; x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} &lt;/script&gt;
+            &lt;/p&gt;
+            &lt;h2 id="image-test"&gt;Image test&lt;/h2&gt;
+            &lt;p&gt;&lt;img alt="THU" src="img/index/1.jpg" /&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></p>
+</li>
+<li>
+<p>Markdown!</p>
+<p>```markdown</p>
+<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+<h2 id="math-test">Math test</h2>
+<p>
+<script type="math/tex; mode=display"> x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} </script>
+</p>
+<h2 id="image-test">Image test</h2>
+<p><img alt="THU" src="img/index/1.jpg" />
+```</p>
+</li>
+<li>
+<p>Functionality</p>
+</li>
+<li>Great community resource and integration</li>
+<li>MkDocs</li>
+<li>GitHub</li>
+<li>ReadTheDocs</li>
+<li>MathJax &amp; LaTeX</li>
+<li>Focus on Content, not Format</li>
+<li>Office Word? Difficult to unify the format.</li>
+<li>
+<p>NO CSS</p>
+<p><code>css
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:0}dfn{font-style:italic}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}pre,code,.rst-content tt,.rst-content code,kbd,samp{font-family:monospace,serif;_font-family:"courier new",monospace;font-size:1em}pre{white-space:pre}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol,dl{margin:0;padding:0;list-style:none;list-style-image:none}li{list-style:none}dd{margin:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle;max-width:100%}svg:not(:root)</code></p>
+</li>
+</ul>
+<h3 id="writing-tools">Writing Tools</h3>
+<ol>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+<li>Pros:<ul>
+<li>Almighty editor</li>
+<li>Git &amp; GitHub Integration</li>
+</ul>
+</li>
+<li>Cons:<ul>
+<li>Almighty editor</li>
+<li>Need configuration</li>
+</ul>
+</li>
+<li><a href="https://typora.io/">Typora</a></li>
+<li>Pros:<ul>
+<li>Really lightweight</li>
+<li>Out of the box</li>
+<li>Focus on Markdown and better writing experience</li>
+</ul>
+</li>
+<li>Cons:<ul>
+<li>No Git integration</li>
+</ul>
+</li>
+</ol>
+<h3 id="lets-write-markdown">Let's write Markdown</h3>
+<h2 id="introduction-to-git-github">Introduction to Git &amp; GitHub</h2>
+<h3 id="what-is-git-github">WHAT is Git &amp; GitHub</h3>
+<blockquote>
+<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<p>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
+<p>Ref: <a href="https://git-scm.com/">Git SCM</a></p>
+<p>GitHub, Inc. is an American multinational corporation that provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wikis for every project.</p>
+<p>Ref: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a></p>
+</blockquote>
+<h3 id="why-git-github">WHY Git &amp; GitHub</h3>
+<ul>
+<li>The best multi-person collaboration solution in the world</li>
+</ul>
+<h3 id="get-started-with-github-and-our-workflow">Get Started with GitHub and our workflow</h3>
+<ol>
+<li>Register a Github account</li>
+<li>Fork our main repository</li>
+<li>Write your markdown document</li>
+<li>Push or Add your document to the repo in your account</li>
+<li>Create a Pull Request (PR)</li>
+<li>Waiting for reviewing</li>
+<li>Accepted!</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../markdown-intro/" class="btn btn-neutral float-right" title="Markdown简介">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../Test/" class="btn btn-neutral" title="Level 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../Test/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../markdown-intro/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
