@@ -22,7 +22,7 @@ date: 2020-10-11
 - Easy to Learn
   - HTML?
 
-    ```html
+```html
     <div role="main">
             <div class="section">
                 <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
@@ -48,11 +48,11 @@ date: 2020-10-11
                 <p><img alt="THU" src="img/index/1.jpg" /></p>
             </div>
         </div>
-    ```
+```
 
   - Markdown!
   
-    ```markdown
+```markdown
     # Welcome to MkDocs
 
     For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -78,7 +78,7 @@ date: 2020-10-11
     ## Image test
 
     ![THU](img/index/1.jpg)
-    ```
+```
 
 - Functionality
 - Great community resource and integration
