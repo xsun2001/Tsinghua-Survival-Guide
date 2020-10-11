@@ -1,0 +1,40 @@
+name: Deploy TSG website
+
+on: push
+
+jobs:
+  deploy:
+    name: Deploy TSG website
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout config
+        uses: actions/checkout@v2
+        with:
+          ref: config
+      
+      - name: Checkout markdown
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          path: docs
+      
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      
+      - name: Install python dependence
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs python-markdown-math
+        
+      - name: Build with mkdocs
+        run: |
+          mkdocs build
+      
+      - name: Deploy to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
