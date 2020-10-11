@@ -61,6 +61,20 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#why-markdown">WHY Markdown</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#writing-tools">Writing Tools</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lets-write-markdown">Let's write Markdown</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#introduction-to-git-github">Introduction to Git &amp; GitHub</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#what-is-git-github">WHAT is Git &amp; GitHub</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#why-git-github">WHY Git &amp; GitHub</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#get-started-with-github-and-our-workflow">Get Started with GitHub and our workflow</a>
+    </li>
         </ul>
     </li>
     </ul>
@@ -115,64 +129,65 @@
 <h3 id="why-markdown">WHY Markdown</h3>
 <ul>
 <li>Easy to Learn</li>
-<li>
-<p>HTML?</p>
-<p><code>html
-&lt;div role="main"&gt;
-        &lt;div class="section"&gt;
-            &lt;h1 id="welcome-to-mkdocs"&gt;Welcome to MkDocs&lt;/h1&gt;
-            &lt;p&gt;For full documentation visit &lt;a href="https://www.mkdocs.org"&gt;mkdocs.org&lt;/a&gt;.&lt;/p&gt;
-            &lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;&lt;code&gt;mkdocs new [dir-name]&lt;/code&gt; - Create a new project.&lt;/li&gt;
-            &lt;li&gt;&lt;code&gt;mkdocs serve&lt;/code&gt; - Start the live-reloading docs server.&lt;/li&gt;
-            &lt;li&gt;&lt;code&gt;mkdocs build&lt;/code&gt; - Build the documentation site.&lt;/li&gt;
-            &lt;li&gt;&lt;code&gt;mkdocs -h&lt;/code&gt; - Print help message and exit.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;h2 id="project-layout"&gt;Project layout&lt;/h2&gt;
-            &lt;pre&gt;&lt;code&gt;mkdocs.yml    # The configuration file.
-                    docs/
-                    index.md  # The documentation homepage.
-                        ...       # Other markdown pages, images and other files.
-            &lt;/code&gt;&lt;/pre&gt;
-            &lt;h2 id="math-test"&gt;Math test&lt;/h2&gt;
-            &lt;p&gt;
-            &lt;script type="math/tex; mode=display"&gt; x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} &lt;/script&gt;
-            &lt;/p&gt;
-            &lt;h2 id="image-test"&gt;Image test&lt;/h2&gt;
-            &lt;p&gt;&lt;img alt="THU" src="img/index/1.jpg" /&gt;&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;</code></p>
-</li>
-<li>
-<p>Markdown!</p>
-<p>```markdown</p>
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>HTML?</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<pre><code class="language-html">    &lt;div role=&quot;main&quot;&gt;
+            &lt;div class=&quot;section&quot;&gt;
+                &lt;h1 id=&quot;welcome-to-mkdocs&quot;&gt;Welcome to MkDocs&lt;/h1&gt;
+                &lt;p&gt;For full documentation visit &lt;a href=&quot;https://www.mkdocs.org&quot;&gt;mkdocs.org&lt;/a&gt;.&lt;/p&gt;
+                &lt;h2 id=&quot;commands&quot;&gt;Commands&lt;/h2&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;code&gt;mkdocs new [dir-name]&lt;/code&gt; - Create a new project.&lt;/li&gt;
+                &lt;li&gt;&lt;code&gt;mkdocs serve&lt;/code&gt; - Start the live-reloading docs server.&lt;/li&gt;
+                &lt;li&gt;&lt;code&gt;mkdocs build&lt;/code&gt; - Build the documentation site.&lt;/li&gt;
+                &lt;li&gt;&lt;code&gt;mkdocs -h&lt;/code&gt; - Print help message and exit.&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;h2 id=&quot;project-layout&quot;&gt;Project layout&lt;/h2&gt;
+                &lt;pre&gt;&lt;code&gt;mkdocs.yml    # The configuration file.
+                        docs/
+                        index.md  # The documentation homepage.
+                            ...       # Other markdown pages, images and other files.
+                &lt;/code&gt;&lt;/pre&gt;
+                &lt;h2 id=&quot;math-test&quot;&gt;Math test&lt;/h2&gt;
+                &lt;p&gt;
+                &lt;script type=&quot;math/tex; mode=display&quot;&gt; x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} &lt;/script&gt;
+                &lt;/p&gt;
+                &lt;h2 id=&quot;image-test&quot;&gt;Image test&lt;/h2&gt;
+                &lt;p&gt;&lt;img alt=&quot;THU&quot; src=&quot;img/index/1.jpg&quot; /&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
 </code></pre>
-<h2 id="math-test">Math test</h2>
-<p>
-<script type="math/tex; mode=display"> x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} </script>
-</p>
-<h2 id="image-test">Image test</h2>
-<p><img alt="THU" src="img/index/1.jpg" />
-```</p>
-</li>
-<li>
-<p>Functionality</p>
-</li>
+<ul>
+<li>Markdown!</li>
+</ul>
+<pre><code class="language-markdown">    # Welcome to MkDocs
+
+    For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+    ## Commands
+
+    * `mkdocs new [dir-name]` - Create a new project.
+    * `mkdocs serve` - Start the live-reloading docs server.
+    * `mkdocs build` - Build the documentation site.
+    * `mkdocs -h` - Print help message and exit.
+
+    ## Project layout
+
+        mkdocs.yml    # The configuration file.
+        docs/
+            index.md  # The documentation homepage.
+            ...       # Other markdown pages, images and other files.
+
+    ## Math test
+
+    $$ x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$
+
+    ## Image test
+
+    ![THU](img/index/1.jpg)
+</code></pre>
+<ul>
+<li>Functionality</li>
 <li>Great community resource and integration</li>
 <li>MkDocs</li>
 <li>GitHub</li>
