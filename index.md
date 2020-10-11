@@ -1,3 +1,11 @@
+---
+title: Welcome
+summary: Test markdown file
+authors:
+    - xsun2001
+date: 2020-10-11
+---
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -19,3 +27,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Math test
 
 $$ x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$
+
+## Image test
+
+![THU](img/index/1.jpg)
